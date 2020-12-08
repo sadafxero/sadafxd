@@ -1,0 +1,441 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    body {
+        margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+        }
+        header{
+        background: url(../IMG/banner.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background-position: center;
+        }
+        .navlogo{
+            width: 100px;
+        }
+        .cstm{
+        font-size: 35px;
+        }
+        section{
+        background: url(../IMG/newsletter.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding-top: 200px;
+        padding-bottom: 150px;
+        }
+        section input{
+         position: relative;
+         border-radius: 25px;
+         border: 1px solid white;
+        }
+        #input1{
+         width: 250px;
+         text-align: center;
+        }
+        #input2{
+         width: 100px;
+         text-align: center;
+         left: 125px;
+         bottom: 42px;
+        }
+        .signup1{
+         width: 200px;
+         position: relative;
+         left: 170px;
+         top: 10px;
+        }
+         .signup2{
+         width: 200px;
+         position: relative;
+         right: 170px;
+         bottom: 10px;
+        }
+        .signup-h4{
+         position: relative;
+         top: 20px;
+         font-size: 20px;
+         }
+        .signup-p{
+         position: relative;
+         top: 20px;
+         font-size: 12px;
+        }
+        #btn{
+         position: relative;
+         top: 20px;
+         }
+         .signup-h4-1{
+            position: relative;
+            top: 10px;
+            left: 40px;
+            font-size: 20px;  
+         }
+         .signup-p-1{
+            position: relative;
+            top: 10px;
+            left: 40px;
+            font-size: 12px;
+         }
+         #btn1{
+            position: relative;
+            left: 40px;
+         }
+         .cstm1{
+            font-size: 15px;
+            font-weight: bolder;
+         }
+         .cstm2{
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        .cstm3{
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        #Placerat{
+            background-color: orangered!important;
+        }
+        footer{
+         background: url(../IMG/footer.png) no-repeat;
+         background-size: cover;
+         height: 200px;
+         padding-top: 10px;
+         padding-bottom: 50px;
+        }
+        footer p{
+         font-size: 30px;
+         font-weight: bolder;
+        }
+        a.nav-link.js-scroll-trigger.text-dark.font-weight-bold.active {
+        background-color: rgba(243, 67, 3, 0.911);
+        border-radius: 20px;
+        color: white!important;
+        }
+        .js-scroll-trigger:active{
+        background-color: rgba(243, 67, 3, 0.911);
+        border-radius: 20px;
+        color: white!important;
+        transition: 0.40s;
+        }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 991px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    body {
+        margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+        }
+        header{
+        background: url(../IMG/banner.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        padding-top: 250px;
+        padding-bottom: 150px;
+        background-position: center;
+        }
+        .cstm{
+        font-size: 35px;
+        }
+        section{
+        background: url(../IMG/newsletter.png) no-repeat;
+        background-size: cover;
+        padding-top: 200px;
+        padding-bottom: 150px;
+        }
+        section input{
+         position: relative;
+         border-radius: 25px;
+         border: 1px solid white;
+        }
+        #input1{
+         width: 400px;
+         text-align: center;
+        }
+        #input2{
+         width: 150px;
+         text-align: center;
+         right: 80px;
+        }
+        .signup1{
+         width: 500px;
+         position: relative;
+         left: 600px;
+         bottom: 150px;
+        }
+         .signup2{
+         width: 550px;
+         position: relative;
+         right: 600px;
+         bottom: 250px;
+        }
+        .signup-h4{
+         position: relative;
+         top: 50px;
+         }
+        .signup-p{
+         position: relative;
+         top: 50px;
+        }
+        #btn{
+         position: relative;
+         top: 70px;
+         }
+        footer{
+         background: url(../IMG/footer.png) no-repeat;
+         background-size: cover;
+         height: 100%;
+         padding-top: 100px;
+         padding-bottom: 150px;
+        }
+        footer p{
+         font-size: xx-large;
+         font-weight: bolder;
+        }
+        a.nav-link.js-scroll-trigger.text-dark.font-weight-bold.active {
+        background-color: rgba(243, 67, 3, 0.911);
+        border-radius: 20px;
+        color: white!important;
+        }
+        .js-scroll-trigger:active{
+        background-color: rgba(243, 67, 3, 0.911);
+        border-radius: 20px;
+        color: white!important;
+        transition: 0.40s;
+        }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 1140px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    body {
+        margin: 0;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        text-align: left;
+        background-color: #fff;
+        }
+        header{
+        background: url(../IMG/banner.png) no-repeat;
+        background-size: cover;
+        max-width: 1140px;
+        height: 100%;
+        padding-top: 250px;
+        padding-bottom: 150px;
+        background-position: center;
+        }
+        .navlogo{
+            width: 120px;
+        }
+        .cstm{
+        font-size: 35px;
+        }
+        section{
+        background: url(../IMG/newsletter.png) no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding-top: 200px;
+        padding-bottom: 150px;
+        }
+        section input{
+            position: relative;
+            border-radius: 25px;
+            border: 1px solid white;
+           }
+           #input1{
+            width: 400px;
+            text-align: center;
+           }
+           #input2{
+            width: 150px;
+            text-align: center;
+            right: 80px;
+           }
+           .signup1{
+            width: 500px;
+            position: relative;
+            left: 600px;
+            bottom: 150px;
+           }
+            .signup2{
+            width: 550px;
+            position: relative;
+            right: 600px;
+            bottom: 250px;
+           }
+           .signup-h4{
+            position: relative;
+            top: 50px;
+            }
+           .signup-p{
+            position: relative;
+            top: 50px;
+           }
+           #btn{
+            position: relative;
+            top: 70px;
+            }
+           footer{
+            background: url(../IMG/footer.png) no-repeat;
+            background-size: cover;
+            height: 100%;
+            padding-top: 100px;
+            padding-bottom: 150px;
+           }
+           footer p{
+            font-size: xx-large;
+            font-weight: bolder;
+           }
+           a.nav-link.js-scroll-trigger.text-dark.font-weight-bold.active {
+           background-color: rgba(243, 67, 3, 0.911);
+           border-radius: 20px;
+           color: white!important;
+           }
+           .js-scroll-trigger:active{
+           background-color: rgba(243, 67, 3, 0.911);
+           border-radius: 20px;
+           color: white!important;
+           transition: 0.40s;
+           }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1141px) {
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+    body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    }
+    header{
+    background: url(../IMG/banner.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 250px;
+    padding-bottom: 80px;
+    background-position: center;
+    }
+    .navlogo{
+        width: 130px;
+    }
+    .cstm{
+    font-size: 35px;
+    }
+    section{
+    background: url(../IMG/newsletter.png) no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    section input{
+     position: relative;
+     border-radius: 25px;
+     border: 1px solid white;
+    }
+    #input1{
+     width: 400px;
+     text-align: center;
+    }
+    #input2{
+     width: 150px;
+     text-align: center;
+     right: 80px;
+    }
+    .signup1{
+     width: 550px;
+     height: 350px;
+     position: relative;
+     left: 600px;
+     bottom: 100px;
+    }
+     .signup2{
+     width: 550px;
+     height: 350px;
+     position: relative;
+     right: 600px;
+     bottom: 100px;
+    }
+    .signup-h4{
+     position: relative;
+     top: 50px;
+     }
+    .signup-p{
+     position: relative;
+     top: 50px;
+    }
+    #btn{
+     position: relative;
+     top: 70px;
+     }
+    footer{
+     background: url(../IMG/footer.png) no-repeat;
+     background-size: cover;
+     height: 350px;
+     padding-top: 100px;
+     padding-bottom: 70px;
+    }
+    footer p{
+     font-size: 25px;
+     font-weight: bolder;
+    }
+    a.nav-link.js-scroll-trigger.text-dark.font-weight-bold.active {
+    background-color: rgba(243, 67, 3, 0.911);
+    border-radius: 20px;
+    color: white!important;
+    }
+    .js-scroll-trigger:active{
+    background-color: rgba(243, 67, 3, 0.911);
+    border-radius: 20px;
+    color: white!important;
+    transition: 0.40s;
+    }
+}
